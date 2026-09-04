@@ -1,2 +1,11 @@
-# havenos-core
-HavenOS-core — original from-scratch boot sector and tiny kernel. Not a Linux fork.
+# HavenOS-core
+
+From-scratch tiny OS: original boot sector + original kernel.
+Not Linux. Not a fork. Not a rename.
+
+```bash
+make
+qemu-system-i386 -drive format=raw,file=dist/havenos-core.img
+```
+
+Commands at `haven>`: help, about, echo, clear, mem, reboot, halt.
